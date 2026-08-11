@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mohamed Mostafa's personal portfolio page showcasing skills, courses, projects, and contact information."
+    />
+    <link
+      rel="shortcut icon"
+      href="Images/ICON_TAP (2).png"
+      type="image/x-icon"
+    />
+    <title>Mohamed Mostafa | Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <span>Mohamed Mostafa</span>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section id="about">
+        <h1>Hi, I'm Mohamed Mostafa</h1>
+
+        <p>
+          I am a Computer Science student interested in web development and
+          software engineering. I enjoy learning new technologies, building
+          useful projects, and improving my programming skills.
+        </p>
+
+        <p>
+          My goal is to become a
+          <strong>Full-Stack Engineer</strong>
+          and build useful applications that solve real-world problems.
+        </p>
+
+        <img
+          src="Images/Profile Image.jpeg"
+          alt="Mohamed Mostafa profile picture"
+          width="200"
+        />
+      </section>
+
+      <hr />
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>My Skills</h2>
+
+        <p>
+          I am currently learning <strong>Web Development</strong> and I am
+          <em>passionate</em> about building modern applications.
+          <mark>Continuous learning</mark> is an important part of my journey.
+        </p>
+
+        <h3>Technical Skills</h3>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>C#</li>
+          <li>SQL</li>
+        </ul>
+
+        <h3>My Learning Journey</h3>
+
+        <ol>
+          <li>Learn HTML and Semantic HTML</li>
+          <li>Learn CSS and Responsive Design</li>
+          <li>Learn JavaScript</li>
+          <li>Learn React</li>
+          <li>Learn Backend Development</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <!-- Courses Section -->
+      <section id="courses">
+        <h2>My Courses</h2>
+
+        <table border="1">
+          <caption>
+            Courses I Have Studied or Currently Studying
+          </caption>
+
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Duration</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>HTML & CSS</td>
+              <td>3 Months</td>
+              <td>Completed</td>
+            </tr>
+
+            <tr>
+              <td>JavaScript</td>
+              <td>2 Months</td>
+              <td>Completed</td>
+            </tr>
+
+            <tr>
+              <td>React</td>
+              <td>3 Months</td>
+              <td>In Progress</td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">Full-Stack .NET</td>
+              <td>6 Months</td>
+              <td>In Progress</td>
+            </tr>
+
+            <tr>
+              <td colspan="2">Backend Development & Software Engineering</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                More courses will be added to my learning journey.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+
+      <!-- Gallery Section -->
+      <section id="gallery">
+        <h2>My Gallery</h2>
+
+        <figure>
+          <img
+            src="images/web dev project.png"
+            alt="Web development project displayed on a screen"
+            width="250"
+          />
+          <figcaption>Web Development Project</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/programming&coding.png"
+            alt="Programming code displayed on a computer screen"
+            width="250"
+          />
+          <figcaption>Programming and Coding</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/learning and study.png"
+            alt="Computer science study workspace"
+            width="250"
+          />
+          <figcaption>Learning and Studying</figcaption>
+        </figure>
+      </section>
+
+      <hr />
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+          <p>
+            <label for="name">Full Name:</label>
+            <br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@email.com"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="phone">Phone Number:</label>
+            <br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+            />
+          </p>
+
+          <p>
+            <label for="birthdate">Date of Birth:</label>
+            <br />
+            <input type="date" id="birthdate" name="birthdate" />
+          </p>
+
+          <p>
+            <label for="subject">Subject:</label>
+            <br />
+            <select id="subject" name="subject">
+              <option value="">Select a subject</option>
+              <option value="project">Project</option>
+              <option value="job">Job Opportunity</option>
+              <option value="question">Question</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+
+          <legend>Preferred Contact Method</legend>
+
+          <input
+            type="radio"
+            id="contact-email"
+            name="contact-method"
+            value="email"
+            checked
+          />
+          <label for="contact-email">Email</label>
+
+          <br />
+
+          <input
+            type="radio"
+            id="contact-phone"
+            name="contact-method"
+            value="phone"
+          />
+          <label for="contact-phone">Phone</label>
+
+          <p>
+            <label for="message">Message:</label>
+            <br />
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="40"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </p>
+
+          <p>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"> I agree to the terms and conditions. </label>
+          </p>
+
+          <button type="submit">Send Message</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+
+      <hr />
+
+      <!-- FAQ Section -->
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>What are you currently learning?</summary>
+          <p>I am currently learning React and Full-Stack .NET development.</p>
+        </details>
+
+        <details>
+          <summary>What is your career goal?</summary>
+          <p>
+            My goal is to become a professional Full-Stack Software Engineer.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are you available for projects?</summary>
+          <p>
+            You can contact me to discuss potential projects and opportunities.
+          </p>
+        </details>
+      </section>
+
+      <hr />
+
+      <!-- External Link -->
+      <section>
+        <h2>Useful Link</h2>
+
+        <p>
+          You can visit
+          <a href="https://github.com/Mohamedmostafa110" target="_blank">
+            GitHub
+          </a>
+          to explore software development projects.
+        </p>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+      <address>
+        Email:
+        <a href="mailto:momostafa8316@gmail.com">momostafa8316@gmail.com</a>
+        <br />
+        Location: Egypt
+      </address>
+
+      <p>
+        <a href="www.linkedin.com/in/mohamed-mostafa-98a3aa374" target="_blank"
+          >LinkedIn</a
+        >
+        &nbsp;
+        <a href="https://github.com/Mohamedmostafa110" target="_blank"
+          >GitHub</a
+        >
+      </p>
+
+      <p>&copy; 2026 Mohamed Mostafa. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
