@@ -1,0 +1,192 @@
+:root {
+  --header-bg: #05263a;
+  --section1-bg: #0b4f6c;
+  --section2-bg: #f4efe6;
+  --text-light: #ffffff;
+  --text-dark: #05263a;
+  --text-third-color: antiquewhite;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: var(--header-bg);
+  padding: 1.5rem;
+}
+.logo-content {
+  margin-right: 60%;
+  margin-left: 1.2rem;
+}
+.logo {
+  --logo-color: #2a9d8f;
+
+  color: var(--logo-color);
+  font-weight: bold;
+  font-size: 28px;
+}
+.char {
+  color: var(--text-third-color);
+  font-size: 28px;
+}
+.Portfolio {
+  color: antiquewhite;
+}
+.nav-links .link {
+  color: antiquewhite;
+  font-size: 20px;
+  margin-left: 0.5rem;
+}
+.hero {
+  background-color: var(--section1-bg);
+  padding: 8rem 4rem;
+  color: var(--text-light);
+  background-image: url(../Images/Profile\ Image.jpeg);
+  background-repeat: no-repeat;
+  background-position: right 200px center;
+  background-size: 200px auto;
+}
+.hero p {
+  margin-top: 2rem;
+  max-width: 50%;
+  color: var(--text-third-color);
+}
+.buttons {
+  margin-top: 2rem;
+}
+.buttons a {
+  background-color: var(--section2-bg);
+  padding: 0.6rem;
+  color: var(--text-dark);
+  margin-right: 0.7em;
+  text-decoration: none;
+}
+.about {
+  text-align: center;
+  background-color: var(--section2-bg);
+  /* color: var(--text-dark); */
+  padding: 8rem 2rem;
+}
+.about h2 {
+  color: #05263a;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+.about p {
+  margin: 1.5rem 8rem;
+}
+.skills {
+  background-color: var(--section1-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 5rem 2rem;
+  min-height: 80vh;
+}
+.skills h2 {
+  color: var(--section2-bg);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.skills-intro {
+  max-width: 850px;
+  margin: 0 auto 3rem;
+  color: var(--text-muted-light);
+}
+
+.skills-table {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: var(--navbar-bg);
+  border-radius: var(--default-radius);
+  overflow: hidden;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 1.2rem;
+}
+
+.skills-table th {
+  background-color: var(--accent-color);
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.skills-table td {
+  color: var(--text-muted-light);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skills-table td:first-child {
+  color: var(--section2-bg);
+  font-weight: 600;
+}
+
+.skills-table td:nth-child(2) {
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.skills-table tbody tr:hover {
+  background-color: rgba(42, 157, 143, 0.15);
+  cursor: pointer;
+}
+.contact {
+  background-color: var(--section2-bg);
+  color: var(--text-dark);
+
+  text-align: center;
+
+  padding: 5rem 2rem;
+  min-height: 80vh;
+}
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.contact > p {
+  width: 70%;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  color: var(--logo-color);
+}
+.contact-button {
+  background-color: var(--section1-bg);
+  padding: 0.8rem 1.8rem;
+  margin-bottom: 2.5rem;
+  color: var(--text-third-color);
+  margin-right: 0.7em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-form {
+  margin-top: 3rem;
+}
+.contact-form fieldset {
+  max-width: 450px;
+  margin: 0 auto 1rem;
+}
+.contact-table td,
+.contact-table th {
+  padding: 30px;
+}
+
+.footer {
+  background-color: var(--header-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer p:nth-child(2) {
+  color: var(--text-third-color);
+}
