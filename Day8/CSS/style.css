@@ -10,7 +10,7 @@
 .home {
   background-image: url(../Images/background.jpg);
   height: 60vh;
-  background-position: center top -500px;
+  background-position: center;
   background-size: cover;
 }
 header {
