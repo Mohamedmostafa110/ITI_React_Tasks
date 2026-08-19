@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+.home {
+  background-image: url(../Images/background.jpg);
+  height: 60vh;
+  background-position: center top -500px;
+  background-size: cover;
+}
+header {
+  display: flex;
+  position: sticky;
+}
+.logo img {
+  width: 11rem;
+}
+.nav-links {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-left: auto;
+}
+.link {
+  color: antiquewhite;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.link:hover {
+  color: rgb(161, 134, 82);
+}
+.hero {
+  text-align: center;
+  padding: 12rem;
+}
+.hero p {
+  color: rgb(211, 203, 203);
+  margin-bottom: 1.2rem;
+}
+.hero h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.hero .description {
+  max-width: 65%;
+  margin: 0 auto;
+  margin-bottom: 0.8rem;
+}
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.buttons a {
+  text-decoration: none;
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.buttons .first-btn {
+  background-color: rgb(161, 134, 82);
+}
+.buttons .second-btn {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+}
+.about {
+  margin: 4rem 0;
+}
+.about-image img {
+  width: 400px;
+}
+.flex {
+  display: flex;
+  gap: 2.5rem;
+}
+.about-content h1 {
+  color: rgba(0, 0, 0, 0.604);
+  margin-bottom: 1.5rem;
+}
+.about-content p {
+  margin-bottom: 1.5rem;
+  color: rgb(142, 136, 136);
+}
+.about-list {
+  list-style: none;
+  color: rgb(142, 136, 136);
+}
+.about-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-list .icon img {
+  width: 1rem;
+}
+.about-list .icon {
+  display: inline-block;
+  width: 2rem;
+  color: rgb(161, 134, 82);
+  border: 1px solid rgb(161, 134, 82);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
