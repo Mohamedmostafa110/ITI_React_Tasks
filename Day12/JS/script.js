@@ -133,16 +133,10 @@ let student = {
   name: "Mohamed",
   age: 20,
   faculty: "Computer Science",
-
-  introduce: function () {
-    console.log(`My name is ${this.name} and I'm ${this.age}`);
-  },
 };
 
 console.log(student.name);
 console.log(student.faculty);
-
-student.introduce();
 
 console.log(`// Loop Through Object
  \n====================================================\n`);
