@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_1_Day_15</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/mediaquery.css" />
+  </head>
+
+  <body class="bg-light">
+    <div class="container py-5">
+      <h1 class="text-center mb-4">Meal Search App</h1>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+          <div class="input-group">
+            <input
+              type="text"
+              id="searchInput"
+              class="form-control"
+              placeholder="Search For Meal"
+            />
+
+            <button class="btn btn-primary" onclick="searchMeals()">
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mb-4">Meals</h2>
+
+      <div id="mealsContainer" class="row g-4"></div>
+
+      <hr class="my-5" />
+
+      <h2 class="mb-4">Recent Searches</h2>
+
+      <div id="history" class="row g-3"></div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
