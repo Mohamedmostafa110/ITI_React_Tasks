@@ -1,16 +1,60 @@
-# React + Vite
+# React Components Task 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project built with **Vite** to practice the React concepts learned during today's session.
 
-Currently, two official plugins are available:
+The project demonstrates how to build and organize a React application using multiple reusable components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was created as a practical task to apply the basic concepts of React, including:
 
-## Expanding the ESLint configuration
+- Creating React Components
+- Component Composition
+- Props
+- State Management
+- Event Handling
+- Rendering Lists
+- Reusable Components
+- Passing Data from Parent to Child
+- Project Structure using Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Components
+
+The project is divided into several components:
+
+### Navbar
+A navigation bar containing:
+
+- Home
+- Link
+- Dropdown
+- Disabled Link
+- Search Form
+
+### Home
+The main section of the application.
+
+It demonstrates:
+
+- Displaying user information
+- Managing a counter using React State
+- Rendering a list of items
+- Handling button clicks
+
+### Hero
+A simple Hero Section used to demonstrate component-based page structure.
+
+### About
+
+The About section demonstrates **Parent and Child components**.
+
+The Parent component passes data to the Child component using **Props**.
+
+```text
+Parent
+   ↓ Props
+Child
